@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+body {
+    background: url('img/concert4.jpg');
+}
+
+.left {
+    display: inline-block;
+    font-family: 'Pushster', cursive;
+    font-size: 20px;
+    color: white;
+}
+
+.mid {
+    width: 600px;
+    margin: auto;
+    display: block;
+    border: rgb(217, 255, 0) solid 2px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: none;
+    color: grey;
+
+}
+
+#img1 {
+    margin-left: 23px;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 45px;
+}   
+
+.btn {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(233, 132, 132);
+}
+
+#box1 {
+    display: inline-block;
+    color: rgb(223, 236, 105);
+    font-family: 'Aclonica', sans-serif;
+    margin: 150px 100px;
+    /* padding-left: 50px; */
+    /* width: 450px; */
+    height: 300px;
+    border: white solid 3px;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    border-radius: 15px;
+    /* background-color: aqua; */
+}
+
+#box2 {
+    margin-left: 7.5px;
+    width: 430px;
+    height: 285px;
+    border: rgb(109, 178, 243) solid 2px;
+    border-radius: 10px;
+}
+
+.ctn {
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 150px;
+}
+
+.fields input{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 8px;
+    width: 400px;
+}
+
+#box8 {
+  border: white solid 2px;
+  display: inline-block;
+  text-align: left;
+  margin-left: 375px;
+  background-color: rgb(7, 7, 7);
+  padding: 20px 20px 20px 20px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  
+}
+
+#city1 {
+    margin-top: 20px;
+}
+#city2 {
+    margin-top: 20px;
+}
+
+#city3 {
+    margin-top: 20px;
+}
+
+#text3 {
+    font-size: large;
+    margin-top: 15px;
+    margin-left: 30px;
+    color: white;
+}
