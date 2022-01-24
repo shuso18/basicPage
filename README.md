@@ -1,4 +1,3 @@
-# Web-Developement
-
-I have started learning Web Developement, recently. In this repository 
-I'll be adding projects which will be an implementation of learned concepts.
+Here, I've created a regestration page for a concert.
+This page contains organization name, logo, navigation bar,
+contact us & email us buttons, registration form and location information.
